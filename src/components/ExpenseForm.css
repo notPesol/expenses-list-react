@@ -1,0 +1,44 @@
+.expense-form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	background-color: #818181;
+	padding: 5px;
+	border-radius: 8px;
+	align-items: flex-end;
+	gap: 5px;
+	color: white;
+	font-size: 18px;
+}
+
+.expense-form__control > input {
+	width: 100%;
+	min-width: 200px;
+	background-color: #2e2d2d;
+	color: white;
+	font-size: 18px;
+	border-radius: 4px;
+	border: none;
+	padding: 5px 10px;
+}
+
+.expense-form__control > button {
+	border-color: inherit;
+	border-radius: 4px;
+	height: 34px;
+	cursor: pointer;
+	margin-right: 5px;
+	color: white;
+}
+
+.expense-form__control > button[type=button] {
+	background-color: red;
+}
+
+.expense-form__control > button[type=submit] {
+	background-color: green;
+}
+
+.expense-form__control > button:active {
+	background-color: orange;
+}
